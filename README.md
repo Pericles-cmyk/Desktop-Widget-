@@ -1,4 +1,10 @@
-# Pericles Desktop Widget — pacote consolidado
+<div align="center">
+  <img src="docs/assets/readme-banner.svg" alt="Pericles Desktop Widget — relógio, alarmes, lembretes e clima" width="100%"/>
+  <br/>
+  <img src="docs/assets/app-icon.svg" alt="Ícone do Pericles Desktop Widget" width="96"/>
+  <h1>Pericles Desktop Widget</h1>
+  <p>Seu painel pessoal para Windows: relógio, alarmes, lembretes e previsão do tempo.</p>
+</div>
 
 Este pacote reúne o código-fonte do Pericles Desktop Widget com os ajustes preparados até agora.
 
@@ -14,6 +20,10 @@ Este pacote reúne o código-fonte do Pericles Desktop Widget com os ajustes pre
 - Backup e restauração dos dados (alarmes, lembretes, notas, atalhos e preferências) em um arquivo `.json`, pelos botões "Exportar backup" e "Importar backup" nas configurações.
 - Controles de janela ligados aos comandos nativos: "Sobre outros programas" (sempre à frente) e "Modo área de trabalho" (sempre atrás). A opção "Iniciar com o Windows" usa o plugin de inicialização automática e reflete o estado real do sistema.
 - Configuração Tauri 2 + React + TypeScript e permissões padrão.
+
+## Identidade visual
+- **Ícone:** [`docs/assets/app-icon.svg`](docs/assets/app-icon.svg)
+- **Banner do README:** [`docs/assets/readme-banner.svg`](docs/assets/readme-banner.svg)
 
 ## Requisitos
 - Windows 10 ou 11.
