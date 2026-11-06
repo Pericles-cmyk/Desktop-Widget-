@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#11131f"/><stop offset="1" stop-color="#292c46"/></linearGradient><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8b7cff"/><stop offset="1" stop-color="#42d6c5"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="18"/></filter></defs>
+<rect width="1200" height="420" rx="36" fill="url(#bg)"/>
+<circle cx="920" cy="210" r="170" fill="#6d61e8" opacity=".18" filter="url(#glow)"/>
+<g transform="translate(660 70)"><rect width="450" height="280" rx="34" fill="#0d0f1a" stroke="#4a4d69" stroke-width="5"/><rect x="28" y="28" width="394" height="224" rx="22" fill="#1b1e31"/>
+<text x="225" y="125" text-anchor="middle" font-family="Segoe UI,Arial" font-size="68" font-weight="600" fill="#f4f5ff">09:41</text><path d="M100 164h250" stroke="url(#a)" stroke-width="8" stroke-linecap="round"/><g fill="#9ca3c4" font-family="Segoe UI,Arial" font-size="17"><text x="80" y="210">ALARMES</text><text x="200" y="210">LEMBRETES</text><text x="340" y="210">CLIMA</text></g><circle cx="225" cy="280" r="8" fill="#42d6c5"/></g>
+<text x="78" y="145" font-family="Segoe UI,Arial" font-size="25" font-weight="700" letter-spacing="5" fill="#42d6c5">PERICLESDEV • WINDOWS</text>
+<text x="75" y="220" font-family="Segoe UI,Arial" font-size="62" font-weight="700" fill="#fff">Pericles Desktop</text><text x="75" y="290" font-family="Segoe UI,Arial" font-size="62" font-weight="700" fill="#fff">Widget</text>
+<text x="80" y="345" font-family="Segoe UI,Arial" font-size="23" fill="#b9bfd9">Relógio • Alarmes • Lembretes • Clima</text>
+<rect x="80" y="370" width="180" height="5" rx="2.5" fill="url(#a)"/>
+</svg>
