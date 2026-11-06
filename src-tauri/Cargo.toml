@@ -1,0 +1,29 @@
+[package]
+name = "pericles-desktop-widget"
+version = "1.0.0"
+description = "Widget de relógio, alarmes, lembretes e previsão do tempo para Windows"
+authors = ["PericlesDev"]
+edition = "2021"
+
+[lib]
+name = "pericles_desktop_widget_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = ["tray-icon"] }
+tauri-plugin-notification = "2"
+tauri-plugin-autostart = "2"
+tauri-plugin-global-shortcut = "2"
+serde = { version = "1", features = ["derive"] }
+sysinfo = "0.32"
+nvml-wrapper = "0.10"
+battery = "0.7"
+tauri-plugin-opener = "2.7.2"
+tauri-plugin-dialog = "2"
+
+[target.'cfg(windows)'.dependencies]
+windows = { version = "0.57", features = ["Win32_System_Performance", "Win32_Foundation"] }
+

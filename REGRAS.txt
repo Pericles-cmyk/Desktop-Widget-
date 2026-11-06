@@ -1,0 +1,11 @@
+1ª PENSAR ANTES DE PROGRAMAR.
+Na Dúvida, Perguntar.
+
+2ª SIMPLICIDADE.
+O Mínimo de código que resolve.
+
+3ª MUDANÇA CIRÚGICA.
+Só mexer no que foi pedido.
+
+4ª OBJETIVO CLARO E UM TESTE QUE PROVE QUE FUNCIONOU.
+São as mesmas regras que vc daria para um funcionário novo.

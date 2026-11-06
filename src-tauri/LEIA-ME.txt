@@ -1,0 +1,15 @@
+PASTA src-tauri CORRIGIDA — PERICLES DESKTOP WIDGET
+
+Esta pasta contém os arquivos Rust/Tauri e os ícones necessários para compilar no Windows.
+
+COMO SUBSTITUIR:
+1. Feche o terminal que está executando o aplicativo (Ctrl+C).
+2. Na pasta do projeto, renomeie a pasta atual src-tauri para src-tauri-backup.
+3. Extraia a pasta src-tauri deste ZIP para a raiz do projeto, ao lado de package.json.
+4. Confirme que existe: src-tauri\icons\icon.ico
+5. Abra o PowerShell na raiz do projeto (a pasta que contém package.json) e execute:
+   npm run tauri dev
+
+IMPORTANTE:
+- Não substitua a pasta src do React nem os arquivos package.json, vite.config.ts ou tsconfig.json.
+- Este pacote inclui os arquivos-fonte e ícones; não inclui binários compilados nem a pasta target, que o Cargo recria automaticamente.
