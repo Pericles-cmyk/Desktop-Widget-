@@ -33,15 +33,26 @@
   },
   "bundle": {
     "active": true,
-    "targets": ["nsis", "msi"],
+    "targets": [
+      "nsis",
+      "msi"
+    ],
     "shortDescription": "Relógio, alarmes, lembretes e previsão do tempo",
     "longDescription": "Widget de desktop personalizável para Windows.",
     "category": "Utility",
     "windows": {
       "nsis": {
         "displayLanguageSelector": false,
-        "languages": ["PortugueseBR"]
+        "languages": [
+          "PortugueseBR"
+        ]
       }
-    }
+    },
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.ico"
+    ]
   }
 }
